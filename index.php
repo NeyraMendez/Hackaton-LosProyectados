@@ -21,7 +21,7 @@ session_start();
     <span class="logo-text">Campus<strong>Go</strong></span>
   </div>
   <div class="nav-links">
-    <a href="index.php" class="active">Inicio</a>
+    <a href="catalogo.php" class="active">Inicio</a>
     <a href="productos.php">Productos</a>
     <a href="mapa.php">Mapa</a>
     <?php if(isset($_SESSION['usuario_id'])): ?>
